@@ -1,0 +1,184 @@
+
+.row-1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+  
+
+.flex-fill {
+  width: 240px;
+  margin: 10px;
+}
+
+
+
+.veryVeryHot {
+    background-color: #fad961;
+    background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 10%);
+    transition: 0.5s;
+}
+
+.veryHot {
+    background-color: #fad961;
+    background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 33%);
+    transition: 0.5s;
+}
+
+.hot {
+    background-color: #fad961;
+    background-image: linear-gradient(90deg, #fad961 48%, #f76b1c 100%);
+    transition: 0.5s;
+}
+
+.cloudy {
+    background-color: #8bc6ec;
+    background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+    transition: 0.5s;
+}
+
+.cold {
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #74ebd5 1%, #9face6 78%);
+    transition: 0.5s;
+}
+
+.dry {
+    background-image: linear-gradient(
+        117deg,
+        rgb(43, 185, 210) 39.2%,
+        rgba(255, 255, 255, 1) 156.2%
+    );
+}
+
+.stable {
+    background-image: linear-gradient(
+        90.2deg,
+        rgba(79, 255, 255, 1) 0.3%,
+        rgba(0, 213, 255, 1) 99.8%
+    );
+}
+
+.wet {
+    background-image: radial-gradient(
+        circle farthest-corner at 0.2% 0.5%,
+        rgba(68, 36, 164, 1) 3.7%,
+        rgba(84, 212, 228, 1) 92.7%
+    );
+}
+.dark {
+  background-color: #020d15;
+  background-image: linear-gradient(135deg, #d93f73 0%, #9599e2 100%);
+  transition: 0.5s;
+
+}
+.normal {
+  background-color: #dbd40c;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  transition: 0.5s;
+}
+.normal-2 {
+  background-color: #dbd40c;
+  background-image: linear-gradient(135deg, #c1d417 0%, #040b90 100%);
+  transition: 0.5s;
+}
+.normal-3 {
+  background-color: #dbd40c;
+  background-image: linear-gradient(135deg, #14b139 0%, #e06d1c 100%);
+  transition: 0.5s;
+}
+.normal-4 {
+  background-color: #dbd40c;
+  background-image: linear-gradient(135deg, #7db4de 0%, #9a4407 100%);
+  transition: 0.5s;
+}
+.normal-5 {
+  background-color: #dbd40c;
+  background-image: linear-gradient(135deg, #0d2613 0%, #9b4a11 100%);
+  transition: 0.5s;
+}
+.normal-6 {
+  background-color: #dbd40c;
+  background-image: linear-gradient(135deg, #5d6c60 0%, #763b11 100%);
+  transition: 0.5s;
+}
+
+.dazzle {
+  background-color: #e52712;
+  background-image: linear-gradient(135deg, #117b0e 0%, #9599e2 100%);
+  transition: 0.5s;
+}
+.lightpub {
+  background-color: linear-gradient(135deg, #1a5984 0%, #0912b6 100%);
+}
+.fan {
+  border-top: #000;
+  background-color: linear-gradient(135deg, #530b65 0%, #0912b6 100%);
+}
+
+.fan .active-btn,
+.lightpub .active-btn{
+  background-color: #ef4141;
+  color: #000;
+  border: 1px solid;
+}
+
+.flashbulb.active .btn-on,
+.fan.active .btn-on {
+  background-color: #80d0c7;
+  color: #178c9c;
+}
+.btn {
+  width: 70px;
+  height: 38px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 10px;
+  border-color: black;
+  background-color: black;
+  font-size: 18px;
+}
+.desc {
+  font-size: 40px;
+  font-weight: 250;
+  transition: 0.5s;
+}
+.icon {
+  font-size: 100px;
+}
+.control {
+  margin-top: 10px;
+}
+.active-bulb {
+  color: yellow;
+}
+.card .lightpub {
+  border-bottom: 5px solid black;
+  background-color: rgb(207, 192, 192);
+}
+.card .fan {
+  background-color: rgb(193, 181, 181);
+}
+.fan .desc {
+  padding-bottom: 20px;
+}
+.card-body {
+  margin: 10px;
+}
+.alert {
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: red;
+  }
+}

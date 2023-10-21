@@ -1,0 +1,16 @@
+.giua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 10vh;
+    background: #f5f5f5;
+  }
+.container {
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  .image-1 {
+    width: 50px;
+  }
